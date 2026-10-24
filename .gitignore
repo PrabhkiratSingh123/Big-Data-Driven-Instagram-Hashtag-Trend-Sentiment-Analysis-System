@@ -1,0 +1,54 @@
+# Environment
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models
+backend/app/ml/models/
+*.pkl
+*.joblib
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Scala
+processing/scala-spark/target/
+processing/scala-spark/project/target/
+
+# Docker
+docker-data/
+
+# Logs
+*.log
+logs/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/

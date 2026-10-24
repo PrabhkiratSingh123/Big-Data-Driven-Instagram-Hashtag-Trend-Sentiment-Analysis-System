@@ -1,0 +1,1 @@
+"""SocialTrendML Core Package"""
